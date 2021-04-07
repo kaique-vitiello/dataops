@@ -1,1 +1,1 @@
-# dataops-impacta - Develop and Deliver Analytics
+# DataOps - Develop and Deliver Analytics

@@ -1,0 +1,10 @@
+image: alpine:latest
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+    - cp -R dags/ /opt/airflow/
+    - chmod -R 777 /opt/airflow/dags
